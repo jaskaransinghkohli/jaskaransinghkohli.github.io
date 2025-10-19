@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaskaran Singh - Full Stack Developer | AI/ML Integrator</title>
+    <!-- Favicon (optional but recommended) -->
+    <link rel="icon" href="path/to/your/favicon.ico" type="image/x-icon">
+
+    <!-- Google Fonts - Montserrat for body, Raleway for headings -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Raleway:wght@700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- AOS (Animate On Scroll) Library CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Your Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="netflix-loader"></div>
+    </div>
+
+    <!-- Particle Background -->
+    <div class="particles" id="particles"></div>
+
+    <!-- Main Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#hero" class="navbar-brand">Jaskaran Singh</a>
+            <div class="navbar-toggler" id="navbarToggler">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="navbar-nav" id="navbarNav">
+                <li><a href="#about">About</a></li>
+                <li><a href="#why-hire-me">Why Hire Me?</a></li> <!-- New Section -->
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="Jaskaran_Singh_Resume_Java.pdf" target="_blank" class="btn btn-primary">Download Resume</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="hero" class="hero-section">
+        <div class="floating-elements">
+            <div class="floating-element"></div>
+            <div class="floating-element"></div>
+            <div class="floating-element"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <p>Hello, I'm</p>
+                <h1 class="typing-effect">Jaskaran Singh</h1>
+                <h2>Full Stack Software Developer | AI/ML Integrator</h2>
+                <p class="tagline">Highly accomplished developer with 4+ years delivering scalable enterprise solutions
+                    for Fortune 500 clients, specializing in Java/Spring Boot and AI/ML integration.</p>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn btn-primary">
+                        <i class="fas fa-rocket"></i>
+                        View My Work
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <i class="fas fa-envelope"></i>
+                        Get In Touch
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <!-- Professional photo added -->
+                <img src="images/Jas.jpeg" alt="Jaskaran Singh" class="profile-pic">
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- About Me Section -->
+        <section id="about" class="section">
+            <div class="container" data-aos="fade-up">
+                <h2>About Me</h2>
+                <div class="about-content">
+                    <p>As a <strong>highly accomplished Full Stack Software Developer</strong> with over 4 years of
+                        experience, I specialize in crafting robust, scalable enterprise solutions across diverse
+                        sectors including printing technology, healthcare, and e-commerce. My expertise lies in
+                        leveraging technologies like <strong>Java/Spring Boot, Microservices, and REST APIs</strong>,
+                        combined with extensive knowledge of <strong>Cloud platforms (GCP)</strong> to deliver impactful
+                        results.</p>
+                    <p>I thrive on solving complex technical challenges, with a proven track record in
+                        <strong>performance optimization, achieving near-zero defects</strong>, and successfully leading
+                        <strong>AI/ML integration initiatives</strong>. My approach blends technical prowess with
+                        strategic thinking, allowing me to translate intricate business requirements into elegant and
+                        efficient software solutions. I excel in <strong>Agile (Scrum)</strong> environments,
+                        demonstrating strong technical leadership and cross-functional team management skills.
+                    </p>
+                    <p>My passion extends to continuously learning and applying cutting-edge technologies, particularly
+                        in the realm of <strong>Generative AI and Large Language Models</strong>, to drive innovation
+                        and enhance user experiences. I am committed to building software that is not only functional
+                        but also future-proof and genuinely adds value.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Hire Me? Section -->
+        <section id="why-hire-me" class="section bg-dark">
+            <div class="container">
+                <h2 data-aos="fade-up">Why Choose Me?</h2>
+                <p class="section-description" data-aos="fade-up" data-aos-delay="100">I bring a unique blend of
+                    technical expertise, proven impact, and strategic vision to every project.</p>
+
+                <div class="why-hire-grid">
+                    <div class="why-hire-item" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="icon-wrapper">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h3>Proven Impact & Results</h3>
+                        <p>I don't just write code; I deliver measurable value. From reducing critical bugs by 70% to
+                            enhancing processing efficiency by over 2x, my work consistently drives business growth and
+                            operational excellence.</p>
+                        <div class="stat-number">70%</div>
+                        <div class="stat-label">Bug Reduction</div>
+                    </div>
+                    <div class="why-hire-item" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="icon-wrapper">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <h3>AI/ML Integration & Innovation</h3>
+                        <p>With expertise in Generative AI and LLM integration, I'm adept at leveraging cutting-edge AI
+                            to build intelligent, future-proof solutions, as demonstrated by my leadership in the
+                            Auto-Claim Genius project.</p>
+                        <div class="stat-number">25%</div>
+                        <div class="stat-label">Data Coverage Increase</div>
+                    </div>
+                    <div class="why-hire-item" data-aos="zoom-in" data-aos-delay="400">
+                        <div class="icon-wrapper">
+                            <i class="fas fa-cogs"></i>
+                        </div>
+                        <h3>Full Stack & Enterprise Expertise</h3>
+                        <p>My 4+ years as a Full Stack Developer means I understand systems end-to-end. I build robust
+                            Java/Spring Boot microservices, scalable REST APIs, and deploy on Cloud platforms (GCP) for
+                            Fortune 500 clients.</p>
+                        <div class="stat-number">4+</div>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                    <div class="why-hire-item" data-aos="zoom-in" data-aos-delay="500">
+                        <div class="icon-wrapper">
+                            <i class="fas fa-users-cog"></i>
+                        </div>
+                        <h3>Technical Leadership & Collaboration</h3>
+                        <p>I excel in cross-functional teams, serving as an SME and leading initiatives. I translate
+                            complex business needs into clear technical roadmaps, fostering effective collaboration in
+                            Agile environments.</p>
+                        <div class="stat-number">10+</div>
+                        <div class="stat-label">Fortune 500 Clients</div>
+                    </div>
+                </div>
+                <div class="hero-actions" data-aos="fade-up" data-aos-delay="600" style="margin-top: 4rem;">
+                    <a href="#projects" class="btn btn-primary">
+                        <i class="fas fa-eye"></i>
+                        See My Impactful Work
+                    </a>
+                    <a href="Jaskaran_Singh_Resume_Java.pdf" target="_blank" class="btn btn-secondary">
+                        <i class="fas fa-download"></i>
+                        Download Resume
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <div class="container" data-aos="fade-up">
+                <h2>Core Competencies</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3><i class="fas fa-code"></i> Languages</h3>
+                        <ul>
+                            <li>Java</li>
+                            <li>C#</li>
+                            <li>C++</li>
+                            <li>JavaScript</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>SQL</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3><i class="fas fa-cubes"></i> Frameworks & Libraries</h3>
+                        <ul>
+                            <li>Spring Boot</li>
+                            <li>Hibernate</li>
+                            <li>JSP</li>
+                            <li>Servlets</li>
+                            <li>Smart GWT</li>
+                            <li>JUnit</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3><i class="fas fa-sitemap"></i> Architecture</h3>
+                        <ul>
+                            <li>Microservices</li>
+                            <li>REST/RESTful APIs</li>
+                            <li>CI/CD</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3><i class="fas fa-database"></i> Databases</h3>
+                        <ul>
+                            <li>MySQL</li>
+                            <li>Microsoft SQL Server</li>
+                            <li>MyBatis</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3><i class="fas fa-cloud"></i> Cloud & Big Data</h3>
+                        <ul>
+                            <li>Google Cloud Platform (GCP)</li>
+                            <li>BigQuery (exposure)</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3><i class="fas fa-robot"></i> AI/ML</h3>
+                        <ul>
+                            <li>Generative AI (project management)</li>
+                            <li>LLM integration (conceptual understanding)</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3><i class="fas fa-tools"></i> Tools & Platforms</h3>
+                        <ul>
+                            <li>Git</li>
+                            <li>SVN</li>
+                            <li>Jenkins</li>
+                            <li>JIRA</li>
+                            <li>Confluence</li>
+                            <li>Maven</li>
+                            <li>Ant</li>
+                            <li>Postman</li>
+                            <li>Azure DevOps</li>
+                            <li>Coverity</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3><i class="fas fa-clipboard-list"></i> Methodologies</h3>
+                        <ul>
+                            <li>Agile (Scrum)</li>
+                            <li>Waterfall</li>
+                            <li>SDLC</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="container" data-aos="fade-up">
+                <h2>My Projects</h2>
+                <p class="section-description">Showcasing impactful full-stack and AI-driven solutions that deliver
+                    real-world value.</p>
+                <div class="project-grid">
+                    <!-- Auto-Claim Genius -->
+                    <div class="project-card featured" data-aos="fade-up" data-aos-delay="100">
+                        <img src="https://via.placeholder.com/400x250/e50914/ffffff?text=Auto-Claim+Genius+AI"
+                            alt="Auto-Claim Genius" class="project-image">
+                        <div class="project-info">
+                            <h3>Auto-Claim Genius: AI Insurance Claims Analysis</h3>
+                            <p class="project-description">Led a cross-functional team to build an AI-driven claims
+                                resolution engine, automating damage assessment using BigQuery ML and Generative AI,
+                                integrating multimodal data to increase data coverage by 25%.</p>
+                            <div class="project-tech">
+                                <span><i class="fas fa-tag"></i> BigQuery</span>
+                                <span><i class="fas fa-tag"></i> Python</span>
+                                <span><i class="fas fa-tag"></i> Gemini LLM</span>
+                                <span><i class="fas fa-tag"></i> Generative AI</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/jaskaransinghkohli/BigQueryAutoAnalysis" target="_blank"
+                                    class="btn btn-sm">
+                                    <i class="fab fa-github"></i>
+                                    GitHub
+                                </a>
+                                <a href="#" class="btn btn-sm btn-secondary">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    Live Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Caffena - Coffee E-Commerce Platform -->
+                    <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                        <img src="https://via.placeholder.com/400x250/ffd700/000000?text=Caffena+Coffee+Shop"
+                            alt="Caffena" class="project-image">
+                        <div class="project-info">
+                            <h3>Caffena - Coffee E-Commerce Platform</h3>
+                            <p class="project-description">A one-stop e-commerce platform for coffee enthusiasts,
+                                featuring secure payment processing and efficient inventory management, built with Java
+                                Spring Boot.</p>
+                            <div class="project-tech">
+                                <span><i class="fas fa-tag"></i> Spring Boot</span>
+                                <span><i class="fas fa-tag"></i> Spring Security</span>
+                                <span><i class="fas fa-tag"></i> Hibernate</span>
+                                <span><i class="fas fa-tag"></i> MySQL</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/jaskaransinghkohli/Caffena" target="_blank"
+                                    class="btn btn-sm">
+                                    <i class="fab fa-github"></i>
+                                    GitHub
+                                </a>
+                                <a href="#" class="btn btn-sm btn-secondary">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    Live Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Clothes On Search -->
+                    <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+                        <img src="https://via.placeholder.com/400x250/00d4ff/ffffff?text=Fashion+E-Commerce"
+                            alt="Clothes On Search" class="project-image">
+                        <div class="project-info">
+                            <h3>Clothes On Search - Fashion E-Commerce Platform</h3>
+                            <p class="project-description">A comprehensive fashion e-commerce web application with full
+                                CRUD operations, user authentication, and inventory management system built with Spring
+                                Boot.</p>
+                            <div class="project-tech">
+                                <span><i class="fas fa-tag"></i> Spring Boot</span>
+                                <span><i class="fas fa-tag"></i> JSP</span>
+                                <span><i class="fas fa-tag"></i> JDBC</span>
+                                <span><i class="fas fa-tag"></i> MySQL</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/jaskaransinghkohli/ClothesOnSearch" target="_blank"
+                                    class="btn btn-sm">
+                                    <i class="fab fa-github"></i>
+                                    GitHub
+                                </a>
+                                <a href="#" class="btn btn-sm btn-secondary">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    Live Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Dentist Clinic Management System -->
+                    <div class="project-card" data-aos="fade-up" data-aos-delay="400">
+                        <img src="https://via.placeholder.com/400x250/28a745/ffffff?text=Clinic+Management"
+                            alt="Dentist Clinic Management" class="project-image">
+                        <div class="project-info">
+                            <h3>Dentist Clinic Management System</h3>
+                            <p class="project-description">Desktop Application for managing dentist clinics with patient
+                                records, appointments, billing, and inventory. This application can also be used for
+                                other medical-related management.</p>
+                            <div class="project-tech">
+                                <span><i class="fas fa-tag"></i> C#</span>
+                                <span><i class="fas fa-tag"></i> XML</span>
+                                <span><i class="fas fa-tag"></i> WPF</span>
+                                <span><i class="fas fa-tag"></i> LINQ</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/jaskaransinghkohli/DentistClinicManagementSystem"
+                                    target="_blank" class="btn btn-sm">
+                                    <i class="fab fa-github"></i>
+                                    GitHub
+                                </a>
+                                <a href="#" class="btn btn-sm btn-secondary">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    Live Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Society and Customer Management Web Application -->
+                    <div class="project-card" data-aos="fade-up" data-aos-delay="500">
+                        <img src="https://via.placeholder.com/400x250/6f42c1/ffffff?text=Society+Management"
+                            alt="Society Management" class="project-image">
+                        <div class="project-info">
+                            <h3>Society and Customer Management Web Application</h3>
+                            <p class="project-description">This project is one of the best problem-solving websites for
+                                prominent societies. It keeps customers and shopkeepers connected so that if a customer
+                                needs an item, the customer can check which shopkeeper has that item and can place an
+                                order online. All the transactions are online.</p>
+                            <div class="project-tech">
+                                <span><i class="fas fa-tag"></i> Java Servlet</span>
+                                <span><i class="fas fa-tag"></i> Java 8</span>
+                                <span><i class="fas fa-tag"></i> JSP</span>
+                                <span><i class="fas fa-tag"></i> JDBC</span>
+                                <span><i class="fas fa-tag"></i> MySQL</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" target="_blank" class="btn btn-sm">
+                                    <i class="fab fa-github"></i>
+                                    GitHub
+                                </a>
+                                <a href="#" class="btn btn-sm btn-secondary">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    Live Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section bg-light">
+            <div class="container" data-aos="fade-up">
+                <h2>Professional Journey</h2>
+                <p class="section-description">Over 4+ years of delivering impactful solutions across diverse
+                    industries, from healthcare to printing technology.</p>
+                <div class="timeline">
+                    <!-- Ricoh Canada -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content" data-aos="fade-left">
+                            <h3>Software Developer II - Ricoh Canada</h3>
+                            <p class="timeline-date">Sept 2022 - Present | Kitchener, ON</p>
+                            <ul>
+                                <li>Led development of QR code generation feature for mobile apps, <strong>reducing
+                                        print job completion time by 15%</strong> and eliminating manual device setup.
+                                </li>
+                                <li>Developed the BSI (Brother Service Interface) tool, an enterprise strategic
+                                    initiative to <strong>expand market reach to over 10,000 potential clients</strong>.
+                                </li>
+                                <li>Delivered critical customizations for Fortune 500 clients (IBM, Siemens, Wells
+                                    Fargo, Amazon), proactively troubleshooting high-priority technical issues.</li>
+                                <li>Initiated and owned internal tools development, <strong>increasing operational
+                                        efficiency by 15%</strong> and customer acquisition through streamlined
+                                    workflows.</li>
+                                <li>Provided strategic technical advisory as an SME, leveraging R&D insights to
+                                    influence critical technical decisions and <strong>contribute to measurable business
+                                        growth</strong>.</li>
+                                <li>Drove the refactoring of the critical XDP module, <strong>minimizing client-reported
+                                        bug tickets by 70%</strong> quarterly and significantly reducing support
+                                    overhead.</li>
+                                <li>Spearheaded the engineering and strategic redesign of the critical XDP (Extended
+                                    Device Preference) module, optimizing for robust stability and peak performance.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Agfa Healthcare -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content" data-aos="fade-right" data-aos-delay="100">
+                            <h3>Java Software Developer Co-op - Agfa Healthcare</h3>
+                            <p class="timeline-date">Sept 2021 - Dec 2021 | Waterloo, ON</p>
+                            <ul>
+                                <li>Implemented comprehensive analysis and testing across <strong>50+ packages</strong>
+                                    using Java, JUnit, and JBoss, <strong>improving code quality</strong>.</li>
+                                <li>Analyzed server, test, and Jenkins logs to identify and resolve critical bugs,
+                                    <strong>improving deployment success rates by 30%</strong>.
+                                </li>
+                                <li>Introduced Server rules (ILMs), <strong>enhancing server processing efficiency by
+                                        over 2x</strong> through optimized data lifecycle management.</li>
+                                <li>Managed development sandbox, enabling local testing for <strong>200+ user
+                                        stories</strong> and accelerating development cycles.</li>
+                                <li>Engineered code modifications addressing product requirements and defects, managing
+                                    the full development lifecycle.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Percept Technologies -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content" data-aos="fade-left" data-aos-delay="200">
+                            <h3>Java Software Developer - Percept Technologies</h3>
+                            <p class="timeline-date">Jan 2019 - June 2020 | Delhi, India</p>
+                            <ul>
+                                <li>Designed and developed responsive UIs using JSP, JavaScript, HTML, and CSS,
+                                    <strong>reducing page load time by 40%</strong>.
+                                </li>
+                                <li>Implemented multithreading and exception handling, <strong>reducing response time by
+                                        35%</strong> and <strong>enhancing stability</strong> under concurrent loads.
+                                </li>
+                                <li>Developed back-ends using Java Spring Boot, ensuring responsive design and optimal
+                                    performance across multiple platforms.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Talent 4 Assure -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content" data-aos="fade-right" data-aos-delay="300">
+                            <h3>Software Developer Intern - Talent 4 Assure</h3>
+                            <p class="timeline-date">May 2018 - July 2018 | Delhi, India</p>
+                            <ul>
+                                <li>Gained hands-on experience with Java Servlets, JSP, and full-stack web development
+                                    through live client projects.</li>
+                                <li>Collaborated on production deployments, learning best practices for code reviews,
+                                    testing, and version control workflows.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements Section -->
+        <section id="achievements" class="section">
+            <div class="container" data-aos="fade-up">
+                <h2>Achievements & Publications</h2>
+                <div class="achievements-grid">
+                    <div class="achievement-item" data-aos="fade-up" data-aos-delay="100">
+                        <i class="fas fa-trophy icon-large"></i>
+                        <h3>High Performing Employee Award</h3>
+                        <p>Ricoh Canada (2022-2025)</p>
+                    </div>
+                    <div class="achievement-item" data-aos="fade-up" data-aos-delay="200">
+                        <i class="fas fa-award icon-large"></i>
+                        <h3>High Distinction Postgraduate Award</h3>
+                        <p>GPA: 3.95/4.0, Best Capstone Project</p>
+                    </div>
+                    <div class="achievement-item" data-aos="fade-up" data-aos-delay="300">
+                        <i class="fas fa-newspaper icon-large"></i>
+                        <h3>Published Research Paper</h3>
+                        <p>Blue Brain Technology (2017)</p>
+                    </div>
+                    <div class="achievement-item" data-aos="fade-up" data-aos-delay="400">
+                        <i class="fas fa-users icon-large"></i>
+                        <h3>Recognized Team Lead</h3>
+                        <p>Google Hackathon (Auto-Claim Genius)</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section (Added from Resume) -->
+        <section id="education" class="section bg-light">
+            <div class="container" data-aos="fade-up">
+                <h2>Education</h2>
+                <div class="education-grid">
+                    <div class="education-item" data-aos="fade-up" data-aos-delay="100">
+                        <h3>Conestoga College</h3>
+                        <p>Postgraduate Diploma in Mobile Solutions Development</p>
+                        <p class="date">May 2020 - Aug 2021 | Kitchener, ON</p>
+                        <p><strong>GPA: 3.95/4.0</strong></p>
+                    </div>
+                    <div class="education-item" data-aos="fade-up" data-aos-delay="200">
+                        <h3>I.K. Gujral Punjab Technical University</h3>
+                        <p>Bachelor of Technology in Computer Science and Engineering</p>
+                        <p class="date">April 2016 - May 2020 | Delhi, India</p>
+                        <p><strong>CGPA: 7.89/10.0</strong></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Contact Section -->
+        <section id="contact" class="section bg-dark text-light">
+            <div class="container" data-aos="fade-up">
+                <h2 class="text-light">Get In Touch</h2>
+                <p class="section-description text-light">I'm always open to new opportunities, collaborations, and
+                    discussions about innovative tech solutions. Feel free to reach out!</p>
+                <div class="contact-info">
+                    <p><i class="fas fa-envelope"></i> <a href="mailto:jaskarans880@gmail.com"
+                            class="contact-link">jaskarans880@gmail.com</a></p>
+                    <p><i class="fas fa-phone"></i> +1 647-887-0265</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Kitchener, ON, Canada</p>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/jaskaran-singh-kohli/" target="_blank"
+                            aria-label="LinkedIn"><i class="fab fa-linkedin fa-2x"></i></a>
+                        <a href="https://github.com/jaskaransinghkohli" target="_blank" aria-label="GitHub"><i
+                                class="fab fa-github-square fa-2x"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <span id="current-year"></span> Jaskaran Singh. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- AOS (Animate On Scroll) Library JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Your Custom JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
